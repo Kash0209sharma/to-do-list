@@ -106,19 +106,19 @@ ul li span:hover{
 }
 
 @media only screen and (max-width:700px) {
-   input{
-    flex: 1;
-    border: none;
-    outline: none;
-    background: transparent;
-    padding: 7px;
-    font-weight: 12px;
-
-}
+   .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #edeef0;
+        border: 2px;
+        border-radius: 30px;
+        margin-bottom: 25px;
+    }
     button{
         border: none;
         outline: none;
-        padding: 13px 46px;
+        padding: 10px 35px;
         background: #ff5945;
         color: #fff;
         font-size: 15px;
